@@ -40,7 +40,7 @@ public class ProductServiceImpl implements ProductService {
         return productDTO;
     }
 
-    @Cacheable("products")
+    //@Cacheable("products")
     //@CachePut(value = "users")
     @Override
     public List<ProductDTO> getAllProducts() throws Exception {
